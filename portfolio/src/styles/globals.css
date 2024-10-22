@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom properties for theme colors (light mode default) */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Apply dark theme custom properties when .dark class is applied */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* Support system dark mode preference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+/* Apply a transition to background-color and color for smoother theme changes */
+html, body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Apply custom properties to the body */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Utility for text balancing */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
