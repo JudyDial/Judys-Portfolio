@@ -15,30 +15,30 @@ interface SkillsData {
 
 const skillsData: SkillsData = {
   "Frontend": [
-    { name: 'React', logo: '/images/react.png' },  // Correct path if react.png is in /public
-    { name: 'JavaScript', logo: '/images/js.png' },  // Correct path if javascript.png is in /public
-    { name: 'Tailwind CSS', logo: '/images/tailwind.png' },  // Correct path if tailwind.png is in /public
+    { name: 'React', logo: '/assets/images/react.png' },  // Correct path if react.png is in /public
+    { name: 'JavaScript', logo: '/assets/images/js.png' },  // Correct path if javascript.png is in /public
+    { name: 'Tailwind CSS', logo: '/assets/images/tailwind.png' },  // Correct path if tailwind.png is in /public
   ],
   "Backend": [
-    { name: 'Node.js', logo: '/images/node.png' },  // Correct path if nodejs.png is in /public
-    { name: 'Django', logo: '/images/django.png' },  // Correct path if django.png is in /public
-    { name: 'Express', logo: '/images/express.png' },  // Correct path if express.png is in /public
+    { name: 'Node.js', logo: '/assets/images/node.png' },  // Correct path if nodejs.png is in /public
+    { name: 'Django', logo: '/assets/images/django.png' },  // Correct path if django.png is in /public
+    { name: 'Express', logo: '/assets/images/express.png' },  // Correct path if express.png is in /public
   ],
   "DB Management": [
-    { name: 'MySQL', logo: '/images/mysql.png' },  // Correct path if mysql.png is in /public
-    { name: 'PostgreSQL', logo: '/images/postgreSQL.png' },  // Correct path if postgresql.png is in /public
+    { name: 'MySQL', logo: '/assets/images/mysql.png' },  // Correct path if mysql.png is in /public
+    { name: 'PostgreSQL', logo: '/assets/images/postgreSQL.png' },  // Correct path if postgresql.png is in /public
   ],
   "Networking": [
-    { name: 'Cisco', logo: '/images/cisco.png' },  // Correct path if cisco.png is in /public
-    { name: 'Wireshark', logo: '/images/wireshark.png' },  // Correct path if wireshark.png is in /public
+    { name: 'Cisco', logo: '/assets/images/cisco.png' },  // Correct path if cisco.png is in /public
+    { name: 'Wireshark', logo: '/assets/images/wireshark.png' },  // Correct path if wireshark.png is in /public
   ],
   "Project Management": [
-    { name: 'Trello', logo: '/images/trello.png' },  // Correct path if trello.png is in /public
-    // { name: 'Asana', logo: '/images/asana.png' },  // Correct path if asana.png is in /public
+    { name: 'Trello', logo: '/assets/images/trello.png' },  // Correct path if trello.png is in /public
+    // { name: 'Asana', logo: '/assets/images/asana.png' },  // Correct path if asana.png is in /public
   ],
   "Design": [
-    { name: 'Figma', logo: '/images/figma.png' },  // Correct path if figma.png is in /public
-    // { name: 'Adobe XD', logo: '/images/adobexd.png' },  // Correct path if adobexd.png is in /public
+    { name: 'Figma', logo: '/assets/images/figma.png' },  // Correct path if figma.png is in /public
+    // { name: 'Adobe XD', logo: '/assets/images/adobexd.png' },  // Correct path if adobexd.png is in /public
   ],
 };
 

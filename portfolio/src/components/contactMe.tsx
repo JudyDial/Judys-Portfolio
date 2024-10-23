@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const ContactMe = () => {
   const [formData, setFormData] = useState({
@@ -20,14 +21,30 @@ const ContactMe = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you'd normally handle the form submission (send data to an API, etc.)
-    // For now, we'll just simulate submission with a success message.
-    setFormStatus('Thank you for contacting me!');
-    setFormData({
-      name: '',
-      email: '',
-      message: '',
-    });
+
+    // Replace these with your own EmailJS Service ID, Template ID, and User ID
+    const serviceID = 'your_service_id';
+    const templateID = 'your_template_id';
+    const userID = 'your_user_id';
+
+    // Prepare the email template parameters
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
+    };
+
+    // Send email using EmailJS
+    emailjs.send(serviceID, templateID, templateParams, userID)
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        setFormStatus('Thank you for contacting me! Your message has been sent.');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((error) => {
+        console.error('FAILED...', error);
+        setFormStatus('Something went wrong. Please try again.');
+      });
   };
 
   return (

@@ -7,7 +7,7 @@ const projects = [
     title: 'The Surveillance House',
     description: 'This portfolio showcases a website developed for Surveillance House, a company specializing in selling and installing CCTV cameras for residential and commercial properties.The website features a user-friendly interface with easy navigation to explore various CCTV camera options, services offered, and pricing plans. It provides detailed information about the benefits of installing CCTV cameras, including enhanced security, surveillance monitoring, and deterrence of criminal activities.With a focus on usability and functionality, the website includes interactive features such as product galleries, customer testimonials, and a contact form for inquiries and consultations. The design emphasizes professionalism and reliability to instill trust and confidence in potential customers.',
     techStack: 'React - Bootstrap - Django - Styled Components',
-    imageUrl: '/images/SurveillanceHouse.jpg', // Replace with actual image URL
+    imageUrl: '/assets/images/SurveillanceHouse.jpg', // Replace with actual image URL
     liveDemo: '#',
     Github: 'https://github.com/Cherry-Karanja/Surveillance-House.git',
   },
@@ -15,7 +15,7 @@ const projects = [
     title: 'TechMicro',
     description: 'TechMicro is a dedicated tech partner, specializing in top-notch Web Application Development, Mobile App Development, and efficient Hardware Repairs and Distribution services.',
     techStack: 'React - Tailwind - Django',
-    imageUrl: '/images/techMicro.png', // Replace with actual image URL
+    imageUrl: '/assets/images/techMicro.png', // Replace with actual image URL
     liveDemo: '#',
     Github: 'https://github.com/Nrad8394/Tech-Micro.git',
   },
@@ -23,7 +23,7 @@ const projects = [
     title: 'StreamHub',
     description: 'StreamHub is a multimedia management platform designed to simplify the organization, sharing, and exploration of user-generated content. With StreamHub, users can create and manage albums to categorize their photos and videos, collaborate with friends and family, and discover new media content through personalized recommendations. The platform offers features such as user authentication, media uploading, tagging, commenting, liking, and a recommendation system powered by advanced algorithms. Whether its capturing cherished memories, documenting adventures, or exploring the creativity of others, StreamHub provides a seamless and engaging experience for multimedia enthusiasts.',
     techStack: 'React Native  - Django',
-    imageUrl: '/images/SH.jpeg', // Replace with actual image URL
+    imageUrl: '/assets/images/SH.jpeg', // Replace with actual image URL
     liveDemo: '#',
     Github: 'https://github.com/Harmosoft/StreamHub.git',
   },
