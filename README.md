@@ -42,7 +42,7 @@ portfolio/
 ### Prerequisites
 
 - Node.js (v18 or newer)
-- pnpm, npm, or yarn
+- npm
 
 ### Installation
 
