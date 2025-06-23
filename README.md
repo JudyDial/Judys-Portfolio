@@ -1,36 +1,17 @@
 # Judy's Portfolio 👩‍💻
 
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/Judy-Njenga/Judys-Portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Judy-Njenga/Judys-Portfolio?style=social)
-![GitHub issues](https://img.shields.io/github/issues/Judy-Njenga/Judys-Portfolio?style=social)
-
-**A modern, responsive portfolio website built with Next.js, React, and Tailwind CSS**
-
-[View Demo](#) | [Report Bug](#) | [Request Feature](#)
-
-</div>
-
 ## ✨ Overview
-
 Welcome to my personal portfolio repository! This website showcases my skills, experience, education, and featured projects. Built with the latest technologies, it features smooth animations, responsive design, and an interactive user interface.
-
-## 📸 Screenshots
-
-<div align="center">
-  <!-- Add screenshots here once available -->
-  <p><i>Screenshots coming soon...</i></p>
-</div>
 
 ## 🚀 Features
 
-- **Modern UI/UX**: Built with Next.js 14 and styled with Tailwind CSS
-- **Responsive Design**: Looks great on all device sizes
+- **Profile:** Brief overview of who I am, what I do, and my core values as a developer
+- **Skills Showcase:** Clean layout highlighting my technical stack and tools I work with
+- **Projects Gallery:** Interactive project cards with descriptions, technologies and links
+- **Contact Form:** Functional contact form with email integration to reach out directly
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop devices
 - **Interactive Elements**: Smooth scrolling, animations with Framer Motion
 - **Dark/Light Mode**: Toggle between themes for comfortable viewing
-- **Contact Form**: Get in touch with me directly through the website
-- **SEO Optimized**: Built with best practices for search engine visibility
 
 ## 🛠️ Technologies Used
 
