@@ -18,6 +18,7 @@ const skillsData: SkillsData = {
     { name: 'React', logo: '/assets/images/react.png' },  // Correct path if react.png is in /public
     { name: 'JavaScript', logo: '/assets/images/js.png' },  // Correct path if javascript.png is in /public
     { name: 'Tailwind CSS', logo: '/assets/images/tailwind.png' },  // Correct path if tailwind.png is in /public
+    
   ],
   "Backend": [
     { name: 'Node.js', logo: '/assets/images/node.png' },  // Correct path if nodejs.png is in /public

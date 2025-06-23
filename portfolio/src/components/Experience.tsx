@@ -6,42 +6,37 @@ const experiences = [
   {
     company: 'Car And General',
     title: 'Intern - IT Support',
-    dates: 'May 2023 - Aug 2023',
+    dates: 'May 2023 - August 2023',
     description:
       'Assisted in maintaining, diagnosing, and troubleshooting computer hardware and software issues. Supported the IT team in the setup, configuration, and management of network infrastructure. Provided technical support to end-users, resolving technical issues via phone, email, and in-person.',
-    link: 'https://www.cargen.com/',
   },
   {
-    company: 'Upwork',
-    title: 'Freelancer - Software Developer',
-    dates: 'Feb 2022 - Present',
-    description:
-      'Delivered various client projects, including web development with JavaScript frameworks, mobile apps using React Native, and software troubleshooting. Built strong client relationships, delivering on-time and within budget.',
-    link: 'https://www.upwork.com/',
-  },
-  {
-    company: 'Remotask',
-    title: 'Freelancer - IT Services',
-    dates: 'Feb 2022 - Present',
-    description:
-      'Worked on several tasks related to image annotation, data tagging, and other IT services to support AI and machine learning initiatives.',
-    link: 'https://www.remotasks.com/',
-  },
-  {
-    company: 'Harmosoft (Startup)',
-    title: 'Software Developer',
-    dates: 'Jun 2023 - Present',
+    company: 'Harmosoft',
+    title: 'Software Developer and Project Manager',
+    dates: 'January 2024 - August 2024',
     description:
       'Contributed to the design and development of a startup’s core software product. Responsible for building full-stack web applications, ensuring scalability, performance, and security. Collaborated with a small, agile team in a fast-paced startup environment.',
-    link: '#', // Replace with an actual link to Harmosoft if available
   },
   {
     company: 'Freelance Developer',
     title: 'Freelancer',
-    dates: 'Feb 2022 - Present',
+    dates: 'February 2022 - Present',
     description:
       'Successfully completed various projects, ranging from web development using JavaScript to mobile applications using React Native. Established strong client relationships, receiving positive reviews for delivering solutions on time and within budget. Demonstrated expertise in hardware repair and troubleshooting.',
-    link: '#', // Placeholder link (can be updated to portfolio or freelance website)
+  },
+  {
+    company: 'Upwork',
+    title: 'Freelancer - Software Developer',
+    dates: 'February 2022 - Present',
+    description:
+      'Delivered various client projects, including web development with JavaScript frameworks, mobile apps using React Native, and software troubleshooting. Built strong client relationships, delivering on-time and within budget.',
+  },
+  {
+    company: 'Remotask',
+    title: 'Freelancer - IT Services',
+    dates: 'February 2022 - Present',
+    description:
+      'Worked on several tasks related to image annotation, data tagging, and other IT services to support AI and machine learning initiatives.',
   },
 ];
 
@@ -73,16 +68,6 @@ const Experience = () => {
           <h3 className="text-2xl font-semibold">
             {experiences[activeIndex].title}
           </h3>
-          <p className="text-gray-500 dark:text-gray-400">
-            <a
-              href={experiences[activeIndex].link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              {experiences[activeIndex].company}
-            </a>
-          </p>
           <p className="text-gray-500 dark:text-gray-400 mt-1">
             {experiences[activeIndex].dates}
           </p>
