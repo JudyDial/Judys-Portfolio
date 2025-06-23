@@ -54,38 +54,15 @@ portfolio/
 
 2. Install dependencies
    ```bash
-   pnpm install
-   # or
    npm install
    ```
 
 3. Start the development server
    ```bash
-   pnpm dev
-   # or
    npm run dev
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 📝 Customization Guide
-
-To customize this portfolio for your own use:
-
-1. Update personal information in the components
-2. Replace images in `public/assets/images/`
-3. Modify project data in the FeaturedProjects component
-4. Adjust styling as needed using Tailwind classes
-
-## 🌐 Deployment
-
-This site can be easily deployed to Vercel:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Judy-Njenga/Judys-Portfolio)
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
