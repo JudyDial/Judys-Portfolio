@@ -108,7 +108,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
-Judy Njenga - [Your Email]
+Judy Njenga - [judynjenga14@gmail.com]
 
 Project Link: [https://github.com/Judy-Njenga/Judys-Portfolio](https://github.com/Judy-Njenga/Judys-Portfolio)
 
