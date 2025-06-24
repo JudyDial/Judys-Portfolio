@@ -5,7 +5,7 @@ Welcome to my personal portfolio repository! This website showcases my skills, e
 
 ## 🚀 Features
 
-- **Profile:** Brief overview of who I am, what I do, and my core values as a developer
+- **Personal Introduction:** Hero section with a clear introduction and call-to-action
 - **Skills Showcase:** Clean layout highlighting my technical stack and tools I work with
 - **Projects Gallery:** Interactive project cards with descriptions, technologies and links
 - **Contact Form:** Functional contact form with email integration to reach out directly
@@ -15,14 +15,9 @@ Welcome to my personal portfolio repository! This website showcases my skills, e
 
 ## 🛠️ Technologies Used
 
-<div align="center">
-  <img src="portfolio/public/assets/images/react.png" alt="React" height="40" />
-  <img src="portfolio/public/assets/images/node.png" alt="Node.js" height="40" />
-  <img src="portfolio/public/assets/images/tailwind.png" alt="Tailwind CSS" height="40" />
-  <img src="portfolio/public/assets/images/js.png" alt="JavaScript" height="40" />
-  <!-- Add more tech icons as needed -->
-</div>
-
+- **Frontend:** Next.js, TypeScript
+- **UI:** Tailwind CSS
+  
 ## 🏗️ Project Structure
 
 ```
@@ -63,6 +58,10 @@ portfolio/
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/5a26b495-8a56-46a0-b757-25a10906e0b1)
+
 
 ## 📬 Contact
 
