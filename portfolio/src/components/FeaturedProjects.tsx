@@ -37,7 +37,14 @@ const projects = [
 		imageUrl: "/assets/images/techMicro.png",
 		Github: "https://github.com/JudyDial/Tech-Micro.git",
 	},
-	
+	{
+	title: "Remy Fire",
+	description:
+		"Remy Fire is a modern, responsive website template suitable for portfolios, businesses, and online shops.",
+	techStack: ["HTML", "CSS", "JavaScript"],
+	imageUrl: "/assets/images/remyFire.png", 
+	Github: "https://github.com/JudyDial/remy-Fire",
+	},
 ]
 
 const FeaturedProjects = () => {
