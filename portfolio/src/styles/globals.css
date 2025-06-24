@@ -42,3 +42,16 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Animated gradient movement for background effect */
+@keyframes gradient-move {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-48%, -52%) scale(1.05);
+  }
+}
+.animate-gradient-move {
+  animation: gradient-move 12s ease-in-out infinite;
+}
