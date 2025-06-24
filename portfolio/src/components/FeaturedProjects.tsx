@@ -11,23 +11,23 @@ const projects = [
 		techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
 		imageUrl: "/assets/images/portfolioImage.png",
 		liveDemo: "https://judys-portfolio.vercel.app/",
-		Github: "https://github.com/Cherry-Karanja/Judys-Portfolio.git",
+		Github: "https://github.com/JudyDial/Judys-Portfolio.git",
 	},
-  {
-	title: "Golden Care",
-	description:
-	"Golden Care is a mobile platform designed to simplify elderly care by helping caregivers manage health records, medication schedules, and appointments in one place.",
-	techStack: ["Django", "TypeScript", "JavaScript", "PostgreSQL"],
-	imageUrl: "/assets/images/GoldenCare.jpg",
-	Github: "https://github.com/Cherry-Karanja/Golden-Care-2.0.git",
-  },
+	{
+		title: "Golden Care",
+		description:
+		"Golden Care is a mobile platform designed to simplify elderly care by helping caregivers manage health records, medication schedules, and appointments in one place.",
+		techStack: ["Django", "TypeScript", "JavaScript", "PostgreSQL"],
+		imageUrl: "/assets/images/GoldenCare.jpg",
+		Github: "https://github.com/JudyDial/Golden-Care-2.0.git",
+	},
 	{
 		title: "The Surveillance House",
 		description:
 			"This portfolio features a website built for Surveillance House, a company offering CCTV sales and installation for homes and businesses.",
 		techStack: ["Django", "JavaScript", "HTML", "CSS"],
 		imageUrl: "/assets/images/SurveillanceHouse.jpg",
-		Github: "https://github.com/JudyDial/Survveilance-house.git",
+		Github: "https://github.com/JudyDial/Surveillance-House.git",
 	},
 	{
 		title: "TechMicro",
