@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import Image from "next/image"
 import FloatingOrbsBackground from "./FloatingOrbsBackground"
 
 const Hero = () => {
@@ -135,14 +136,14 @@ const Hero = () => {
             </ul>
           </nav>
         </div>
-      </header>
-
-      {/* Main content */}
+      </header>      {/* Main content */}
       <main className="text-center mt-16 sm:mt-16 flex-grow flex flex-col justify-center items-center w-full px-4 mb-16 relative z-10">
         {/* Profile Image */}
-        <img
+        <Image
           src="/assets/images/profile.jpg"
           alt="Judy Mumbi Njenga profile"
+          width={128}
+          height={128}
           className="w-24 h-24 sm:w-32 sm:h-32 rounded-full mx-auto mb-4 shadow-lg object-cover border-4 border-blue-500 dark:border-blue-400 hover:scale-105 transition-transform duration-300"
         />
         <p className="text-base sm:text-lg text-gray-500 dark:text-gray-400">Hey, I&apos;m</p>
@@ -162,7 +163,7 @@ const Hero = () => {
             onClick={() => scrollToSection("contact")}
             className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300 text-base sm:text-lg"
           >
-            Let's Work Together
+            Let&apos;s Work Together
           </button>
         </div>      
       </main>

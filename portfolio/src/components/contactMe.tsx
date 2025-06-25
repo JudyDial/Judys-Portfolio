@@ -1,4 +1,4 @@
-"use client"
+ "use client"
 import type React from "react"
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
@@ -35,19 +35,17 @@ const ContactMe = () => {
       name: formData.name,
       email: formData.email,
       message: formData.message,
-    }
-
-    // Send email using EmailJS
+    }    // Send email using EmailJS
     emailjs
       .send(serviceID, templateID, templateParams, publicKey)
-      .then((response: any) => {
-        console.log("SUCCESS!", response.status, response.text)
+      .then((response: unknown) => {
+        console.log("SUCCESS!", response)
         setFormStatus("Thank you for contacting me! Your message has been sent.")
         setFormData({ name: "", email: "", message: "" })
         setIsSubmitting(false)
         
       })
-      .catch((error: any) => {
+      .catch((error: unknown) => {
         console.error("FAILED...", error)
         setFormStatus("Something went wrong. Please try again.")
         setIsSubmitting(false)
@@ -62,9 +60,8 @@ const ContactMe = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
             Get In Touch
-          </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Have a project in mind or want to collaborate? I'd love to hear from you. Send me a message and I'll get
+          </h2>          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            Have a project in mind or want to collaborate? I&apos;d love to hear from you. Send me a message and I&apos;ll get
             back to you as soon as possible.
           </p>
         </div>
