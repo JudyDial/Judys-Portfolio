@@ -1,9 +1,9 @@
 import Hero from '../components/hero';
 import Experience from '../components/experience';
-import FeaturedProjects from '../components/FeaturedProjects';
+import FeaturedProjects from '../components/projects';
 import ContactMe from '../components/contactMe';
-import Education from '../components/Education';
-import Skills from '../components/Skills';
+import Education from '../components/education';
+import Skills from '../components/skills';
 
 const Page = () => {
   return (
